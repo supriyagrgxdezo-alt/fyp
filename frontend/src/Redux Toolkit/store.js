@@ -35,14 +35,14 @@ const rootReducer = combineReducers({
   address: addressReducer,
   wishlist: wishlistReducer,
   
-  //seller reducer
+
   sellerAuth: sellerAuthReducer,
   sellerOrder: sellerOrderReducer,
   sellerProduct: sellerProductReducer,
   seller: sellerReducer,
   transaction: transactionReducer,
 
-  //admin reducer
+
   admin: adminSlice,
   deal: dealSlice,
   adminCoupon: AdminCouponReducer,
