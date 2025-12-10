@@ -40,7 +40,6 @@ const Auth = () => {
       <Snackbar
         open={auth.otpSent}
         autoHideDuration={6000}
-        // onClose={handleClose}
         message="OTP sent successfully!"
       />
     </div>
